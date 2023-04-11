@@ -1,11 +1,11 @@
-#HDFS 
+# HDFS 
 1.	Create txt file and write sample input using this command :
 Ex : vi sample_input.txt
 
 2.	Put txt file on a specific location using this command
 Ex : hdfs dfs -put sample_input.txt /PATH/
 
-#Map Reduce
+# Map Reduce
 1.	Define variable in Linux using “export” command to save path of my libraries or Jars to use it while compiling my code.
 Ex : export LIB_PATH=/usr/lib/Hadoop
 
