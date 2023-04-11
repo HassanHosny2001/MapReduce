@@ -15,7 +15,7 @@ The javac command is a tool in Java Development Kit (JDK) used for compiling Jav
 Ex : javac -classpath $JARS wordcount_classes/WordCount.java
 
 3.	Create a “Jar” 
-A "jar" refers to a Java archive file that contains compiled Java classes and associated resources, such as images or configuration files. Jars are used to package and distribute MapReduce jobs that can be executed on a Hadoop cluster. 
+- A "jar" refers to a Java archive file that contains compiled Java classes and associated resources, such as images or configuration files. Jars are used to package and distribute MapReduce jobs that can be executed on a Hadoop cluster. 
 Ex : export JARS=$LIB_PATH/client-0.20/hadoop-core.jar:$LIB_PATH/lib/commons-cli-1.2.jar:$LIB_PATH/client/hadoop-common.jar:$LIB_PATH/hadoop-annotations-2.6.0-cdh5.4.2.jar
 Ex : jar -cvf wordcount.jar -C wordcount_classes/ .
 4.	After step 3, I have a Jar ready to run a Hadoop command that will execute a MapReduce job and take a text file (sample_input.txt) created in the HDFS phase.
